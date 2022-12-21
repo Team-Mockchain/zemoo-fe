@@ -22,17 +22,7 @@
 // // get signature
 // const signature = await socialLoginSDK.whitelistUrl('http://localhost:3000/');
 
-// // pass while initialization
-// // using the current active chain as Goerli (chainId 5)
-// await socialLoginSDK.init(ethers.utils.hexValue(5), {
-//   'http://localhost:3000': signature
-// });
 
-// }
-
-// import styles from "../styles/Home.module.css";
-// import { useCallback, useEffect, useState } from "react";
-// import { ethers } from "ethers";
 import dynamic from "next/dynamic";
 import { Suspense } from "react";
 
